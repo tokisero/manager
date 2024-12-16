@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserPanel</class>
+ <widget class="QWidget" name="UserPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>User Panel</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="viewFlightsButton">
+     <property name="text">
+      <string>View All Flights</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="bookFlightButton">
+     <property name="text">
+      <string>Book a Flight</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="cancelBookingButton">
+     <property name="text">
+      <string>Cancel Booking</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="viewBookedFlightsButton">
+     <property name="text">
+      <string>View Booked Flights</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="findFlightButton">
+     <property name="text">
+      <string>Find Flight</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="logoutButton">
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
